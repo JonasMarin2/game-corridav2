@@ -100,7 +100,8 @@ function game_over() {
         console.log("GAME OVER! Redirecionando...")
         jogar = false
         motor.pause()
-        window.location.replace("./under.html")
+        // window.location.replace("./under.html")
+        window.location.href = "./under.html";
 
     }
 }
@@ -113,7 +114,7 @@ function gameOver() {
         motor.pause();
 
 
-        window.location.href = "under.html";
+        window.location.href = "./under.html";
     }
 }
 
@@ -144,7 +145,7 @@ function colisao() {
 document.addEventListener('keydown', () => {
     if (carro.vida <= 0) {
         console.log("GAME OVER! Redirecionando...");
-        window.location.href = "under.html";
+        window.location.href = "./under.html";
     }
 });
 
