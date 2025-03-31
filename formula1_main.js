@@ -100,7 +100,7 @@ function game_over() {
         console.log("GAME OVER! Redirecionando...")
         jogar = false
         motor.pause()
-        window.location.replace("under.html")
+        window.location.replace("./under.html")
 
     }
 }
