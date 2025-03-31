@@ -1,0 +1,14 @@
+{
+  "name": "jogo",
+  "version": "1.0.0",
+  "main": "formula1_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "routes": [
+    { "src": "/under", "dest": "/under.html" }
+  ],
+  "author": "Jonas",
+  "license": "ISC",
+  "description": ""
+}
