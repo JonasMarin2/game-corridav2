@@ -1,0 +1,65 @@
+body {
+    background-image: url('./assets/gamovf.gif');
+    background-size: cover;
+    background-position: 5px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.gameover-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3); 
+    border: 2px solid #3498db; 
+    backdrop-filter: blur(5px); 
+}
+
+#gameover-text {
+    font-size: 50px;
+    color: #00aaff; 
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+
+#custom-message {
+    font-size: 24px;
+    color: #0f4fd8; 
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4); 
+}
+
+button:hover {
+    background-color: #2980b9; 
+    transform: translateY(-5px); 
+}
+
